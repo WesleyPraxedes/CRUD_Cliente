@@ -5,7 +5,7 @@ CRUD_Cliente
 
 Application CRUD with DAO Java + JSP + MySQL in NetBeans
 
-Application CRUD (Create, Read, Update e Delete) in java with DAO(Data Access Object) + JSP(Java Seven Page) and connection Data Base MySQL.
+Application CRUD (Create, Read, Update e Delete) in java with DAO(Data Access Object) + JSP(JavaServer Page) and connection Data Base MySQL.
 
 
 ---------------------------
