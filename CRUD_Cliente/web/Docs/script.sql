@@ -1,6 +1,6 @@
-create database crud_client;
+create database crud_cliente;
 
-use crud_client
+use crud_cliente
 
 CREATE TABLE  tb_cliente(
   id_cliente int(10) NOT NULL AUTO_INCREMENT,
