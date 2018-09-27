@@ -3,7 +3,7 @@ create database crud_cliente;
 use crud_cliente
 
 CREATE TABLE  tb_cliente(
-  id_cliente int(10) NOT NULL AUTO_INCREMENT,
+  id_cliente int(10) NOT NULL AUTO_INCREMENT PTIMARY KEY,
   nome varchar(100) NOT NULL,
   email varchar(100) DEFAULT NULL,
   telefone bigint(10) unsigned DEFAULT NULL,
@@ -11,5 +11,5 @@ CREATE TABLE  tb_cliente(
   sexo enum('M','F') DEFAULT NULL,
   salario decimal(10,2) DEFAULT NULL,
   datanascimento date DEFAULT NULL,
-  datacadastro datetime DEFAULT NULL,
+  datacadastro datetime DEFAULT NULL
 )
